@@ -230,10 +230,10 @@
               "Column": {
                 "Expression": {
                   "SourceRef": {
-                    "Entity": "Dim_Customer"
+                    "Entity": "Fact_table"
                   }
                 },
-                "Property": "customer_name"
+                "Property": "exchange_rate"
               }
             },
             "direction": "Ascending"
