@@ -1,0 +1,27 @@
+{
+  "name": "TD AFRICA",
+  "textClasses": {
+    "callout": {
+      "color": "#363435",
+      "fontFace": "'Segoe UI', wf_segoe-ui_normal, helvetica, arial, sans-serif"
+    },
+    "title": {
+      "color": "#363435",
+      "fontFace": "'Segoe UI', wf_segoe-ui_normal, helvetica, arial, sans-serif",
+      "fontSize": 15
+    },
+    "header": {
+      "color": "#363435"
+    }
+  },
+  "dataColors": [
+    "#8F3030",
+    "#12239E",
+    "#E66C37",
+    "#6B007B",
+    "#E044A7",
+    "#744EC2",
+    "#D9B300",
+    "#D64550"
+  ]
+}

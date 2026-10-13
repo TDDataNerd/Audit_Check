@@ -1,0 +1,83 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.1.0/schema.json",
+  "name": "826c78d949069e680f7f",
+  "displayName": "Overview old",
+  "displayOption": "FitToPage",
+  "height": 900,
+  "width": 1600,
+  "objects": {
+    "background": [
+      {
+        "properties": {
+          "image": {
+            "image": {
+              "name": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'Lightmode Sales Latest.png'"
+                  }
+                }
+              },
+              "url": {
+                "expr": {
+                  "ResourcePackageItem": {
+                    "PackageName": "RegisteredResources",
+                    "PackageType": 1,
+                    "ItemName": "Lightmode_Sales_Latest38178332972419915.png"
+                  }
+                }
+              },
+              "scaling": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'Normal'"
+                  }
+                }
+              }
+            }
+          },
+          "transparency": {
+            "expr": {
+              "Literal": {
+                "Value": "0D"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "visibility": "HiddenInViewMode",
+  "visualInteractions": [
+    {
+      "source": "079b648db001b8d444fb",
+      "target": "b1e24de77b4b2b08eba3",
+      "type": "NoFilter"
+    },
+    {
+      "source": "03fc63a02f574c897838",
+      "target": "6984658668c32c2693e1",
+      "type": "NoFilter"
+    },
+    {
+      "source": "03fc63a02f574c897838",
+      "target": "b1e24de77b4b2b08eba3",
+      "type": "NoFilter"
+    },
+    {
+      "source": "c29063ac8e682fc070a2",
+      "target": "974f8adf183727888944",
+      "type": "NoFilter"
+    },
+    {
+      "source": "c681676c35d1edf34ee5",
+      "target": "cffbacffae09a7221c87",
+      "type": "DataFilter"
+    },
+    {
+      "source": "c681676c35d1edf34ee5",
+      "target": "974f8adf183727888944",
+      "type": "NoFilter"
+    }
+  ]
+}

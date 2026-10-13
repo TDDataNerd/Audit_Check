@@ -1,0 +1,78 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.1.0/schema.json",
+  "name": "32d6ec42bcff985bace8",
+  "displayName": "Overview",
+  "displayOption": "FitToPage",
+  "height": 900,
+  "width": 1600,
+  "objects": {
+    "background": [
+      {
+        "properties": {
+          "image": {
+            "image": {
+              "name": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'Lightmode Sales Latest.png'"
+                  }
+                }
+              },
+              "url": {
+                "expr": {
+                  "ResourcePackageItem": {
+                    "PackageName": "RegisteredResources",
+                    "PackageType": 1,
+                    "ItemName": "Lightmode_Sales_Latest38178332972419915.png"
+                  }
+                }
+              },
+              "scaling": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'Normal'"
+                  }
+                }
+              }
+            }
+          },
+          "transparency": {
+            "expr": {
+              "Literal": {
+                "Value": "0D"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "visibility": "HiddenInViewMode",
+  "visualInteractions": [
+    {
+      "source": "963e189ee287b889363d",
+      "target": "aa737dd8e11cc6acc190",
+      "type": "NoFilter"
+    },
+    {
+      "source": "8e6ac32062544297435b",
+      "target": "65fc041b24cc62f9b64d",
+      "type": "NoFilter"
+    },
+    {
+      "source": "8e6ac32062544297435b",
+      "target": "aa737dd8e11cc6acc190",
+      "type": "NoFilter"
+    },
+    {
+      "source": "1c0f2928f6dcb1a09605",
+      "target": "f268c38c2445d789f374",
+      "type": "DataFilter"
+    },
+    {
+      "source": "1c0f2928f6dcb1a09605",
+      "target": "5362dd9724715fa4199c",
+      "type": "NoFilter"
+    }
+  ]
+}
